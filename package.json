@@ -1,0 +1,15 @@
+{
+  "name": "webcss3",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at http://codepen.io/Lewitje/pen/BNNJjo.",
+  "main": "index.js",
+  "dependencies": {
+    "watch-lessc": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
