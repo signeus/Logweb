@@ -31,10 +31,12 @@ body{
 	height: 100%;
 	overflow: hidden;
 	
-	&.form-success{
+	&.success{
 		.container{
-			h1{
-				transform: translateY(105px);
+			.welcome-title{
+                //We need to show it
+                display:block;
+                
 			}
 		}
 	}
@@ -75,8 +77,8 @@ body{
 		background-color: fade(white, 15%);
 		bottom: -160px;
 		
-		-webkit-animation: square 25s infinite;
-		animation:         square 25s infinite;
+		-webkit-animation: square 20s infinite;
+		animation:         square 20s infinite;
 		
 		-webkit-transition-timing-function: linear;
 		transition-timing-function: linear;
@@ -91,13 +93,14 @@ body{
 			width: 90px;
 			height: 90px;
 			
-			animation-delay: 2.5s;
-			animation-duration: 20s;
+			animation-delay: 1s;
+			animation-duration: 5s;
 		}
 		
 		&:nth-child(3){
 			left: 25%;
-			animation-delay: 3s;
+			animation-delay: 9s;
+			animation-duration: 15s;
 		}
 		
 		&:nth-child(4){
@@ -105,7 +108,7 @@ body{
 			width: 25px;
 			height: 25px;
 			
-			animation-duration: 22s;
+			animation-duration: 9s;
 			
 			background-color: fade(white, 25%);
 		}
@@ -119,7 +122,8 @@ body{
 			width: 120px;
 			height: 120px;
 			
-			animation-delay: 3s;
+			animation-delay: 0.5s;
+			animation-duration: 25s;
 			background-color: fade(white, 20%);
 		}
 		
@@ -128,7 +132,8 @@ body{
 			width: 160px;
 			height: 160px;
 			
-			animation-delay: 7s;
+			animation-delay: 0.7s;
+			animation-duration: 11s;
 		}
 		
 		&:nth-child(8){
@@ -136,8 +141,8 @@ body{
 			width: 20px;
 			height: 20px;
 			
-			animation-delay: 15s;
-			animation-duration: 40s;
+			animation-delay: 1.2s;
+			animation-duration: 10s;
 		}
 		
 		&:nth-child(9){
@@ -146,7 +151,7 @@ body{
 			height: 10px;
 			
 			animation-delay: 2s;
-			animation-duration: 40s;
+			animation-duration: 5s;
 			background-color: fade(white, 30%);
 		}
 		
@@ -155,7 +160,8 @@ body{
 			width: 160px;
 			height: 160px;
 			
-			animation-delay: 11s;
+			animation-delay: 0.3s;
+			animation-duration: 32s;
 		}
 	}
 }
